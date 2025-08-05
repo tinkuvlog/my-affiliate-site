@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheap Finds India - Deals Under ₹1000</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-xl sm:text-2xl font-bold text-gray-800">CheapFinds India</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Electronics</a>
+                        <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home & Kitchen</a>
+                        <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Beauty</a>
+                        <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Fashion</a>
+                        <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Mobiles</a>
+                        <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Books</a>
+                    </div>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" type="button" class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg id="menu-open-icon" class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                        <svg id="menu-close-icon" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Electronics</a>
+                <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home & Kitchen</a>
+                <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Beauty</a>
+                <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Fashion</a>
+                <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Mobiles</a>
+                <a href="#" class="text-gray-600 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Books</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Special Offers Section -->
+    <section class="bg-yellow-400 py-6 sm:py-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-6 text-center">Today's Special Deals</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                 <!-- Offer Card 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/3182CE/FFFFFF?text=Deal+of+the+Day" alt="Special Offer">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Portable Power Bank 10000mAh</h3>
+                        <p class="text-gray-600 text-sm mb-4">Fast charging for all your devices. Compact and travel-friendly.</p>
+                        <div class="flex flex-col sm:flex-row items-center justify-between">
+                            <div class="mb-2 sm:mb-0">
+                                <span class="text-xl font-bold text-red-600">₹699</span>
+                                <span class="text-sm text-gray-500 line-through ml-2">₹999</span>
+                            </div>
+                            <a href="#" class="w-full sm:w-auto bg-red-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-red-700 transition-colors duration-300 text-center">
+                                Grab Deal
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Offer Card 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/38A169/FFFFFF?text=Limited+Time+Offer" alt="Special Offer">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Yoga Mat with Carry Strap</h3>
+                        <p class="text-gray-600 text-sm mb-4">Non-slip, eco-friendly material for your fitness routine.</p>
+                        <div class="flex flex-col sm:flex-row items-center justify-between">
+                            <div class="mb-2 sm:mb-0">
+                                <span class="text-xl font-bold text-red-600">₹599</span>
+                                <span class="text-sm text-gray-500 line-through ml-2">₹899</span>
+                            </div>
+                            <a href="#" class="w-full sm:w-auto bg-red-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-red-700 transition-colors duration-300 text-center">
+                                Grab Deal
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Offer Card 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/DD6B20/FFFFFF?text=Hot+Deal" alt="Special Offer">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Insulated Coffee Mug</h3>
+                        <p class="text-gray-600 text-sm mb-4">Keeps your beverage hot or cold for hours. Leak-proof lid.</p>
+                        <div class="flex flex-col sm:flex-row items-center justify-between">
+                            <div class="mb-2 sm:mb-0">
+                                <span class="text-xl font-bold text-red-600">₹449</span>
+                                <span class="text-sm text-gray-500 line-through ml-2">₹799</span>
+                            </div>
+                            <a href="#" class="w-full sm:w-auto bg-red-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-red-700 transition-colors duration-300 text-center">
+                                Grab Deal
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+        <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Featured Products</h1>
+        
+        <!-- Product Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+            
+            <!-- Product Cards -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/E2E8F0/4A5568?text=Product+Image" alt="Product Image">
+                <div class="p-3 sm:p-4">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2 truncate">Wireless Earbuds</h3>
+                    <p class="hidden sm:block text-gray-600 text-sm mb-4">High-quality sound and long battery life.</p>
+                    <div class="text-lg sm:text-xl font-bold text-gray-900 mb-4">₹999</div>
+                    <div class="hidden sm:block mb-4">
+                        <h4 class="font-semibold text-md text-gray-800 mb-1">AI Overview</h4>
+                        <p class="text-gray-600 text-sm">Users love the battery life but some mention connectivity issues.</p>
+                    </div>
+                    <a href="#" class="w-full block text-center bg-yellow-500 text-white font-bold py-2 px-3 sm:px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-300 text-sm sm:text-base">
+                        View on Amazon
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/E2E8F0/4A5568?text=Product+Image" alt="Product Image">
+                <div class="p-3 sm:p-4">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2 truncate">Mini Handheld Fan</h3>
+                    <p class="hidden sm:block text-gray-600 text-sm mb-4">Portable and powerful. Stay cool on the go.</p>
+                    <div class="text-lg sm:text-xl font-bold text-gray-900 mb-4">₹749</div>
+                    <div class="hidden sm:block mb-4">
+                        <h4 class="font-semibold text-md text-gray-800 mb-1">AI Overview</h4>
+                        <p class="text-gray-600 text-sm">Praised for portability. A few users wished the battery lasted longer.</p>
+                    </div>
+                    <a href="#" class="w-full block text-center bg-yellow-500 text-white font-bold py-2 px-3 sm:px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-300 text-sm sm:text-base">
+                        View on Amazon
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/E2E8F0/4A5568?text=Product+Image" alt="Product Image">
+                <div class="p-3 sm:p-4">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2 truncate">Smart LED Strip</h3>
+                    <p class="hidden sm:block text-gray-600 text-sm mb-4">Transform your room with millions of colors.</p>
+                    <div class="text-lg sm:text-xl font-bold text-gray-900 mb-4">₹899</div>
+                    <div class="hidden sm:block mb-4">
+                        <h4 class="font-semibold text-md text-gray-800 mb-1">AI Overview</h4>
+                        <p class="text-gray-600 text-sm">Vibrant colors and easy setup. The app could be more intuitive.</p>
+                    </div>
+                    <a href="#" class="w-full block text-center bg-yellow-500 text-white font-bold py-2 px-3 sm:px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-300 text-sm sm:text-base">
+                        View on Amazon
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/E2E8F0/4A5568?text=Product+Image" alt="Product Image">
+                <div class="p-3 sm:p-4">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2 truncate">Coffee Frother</h3>
+                    <p class="hidden sm:block text-gray-600 text-sm mb-4">Create creamy froth for your lattes.</p>
+                    <div class="text-lg sm:text-xl font-bold text-gray-900 mb-4">₹499</div>
+                    <div class="hidden sm:block mb-4">
+                        <h4 class="font-semibold text-md text-gray-800 mb-1">AI Overview</h4>
+                        <p class="text-gray-600 text-sm">Highly rated for power. Some noted the battery compartment is tight.</p>
+                    </div>
+                    <a href="#" class="w-full block text-center bg-yellow-500 text-white font-bold py-2 px-3 sm:px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-300 text-sm sm:text-base">
+                        View on Amazon
+                    </a>
+                </div>
+            </div>
+             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/E2E8F0/4A5568?text=Product+Image" alt="Product Image">
+                <div class="p-3 sm:p-4">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2 truncate">Cotton T-Shirt</h3>
+                    <p class="hidden sm:block text-gray-600 text-sm mb-4">Comfortable and stylish for everyday wear.</p>
+                    <div class="text-lg sm:text-xl font-bold text-gray-900 mb-4">₹399</div>
+                    <div class="hidden sm:block mb-4">
+                        <h4 class="font-semibold text-md text-gray-800 mb-1">AI Overview</h4>
+                        <p class="text-gray-600 text-sm">Good fit and fabric quality. Some reviews suggest color may fade.</p>
+                    </div>
+                    <a href="#" class="w-full block text-center bg-yellow-500 text-white font-bold py-2 px-3 sm:px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-300 text-sm sm:text-base">
+                        View on Amazon
+                    </a>
+                </div>
+            </div>
+             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/E2E8F0/4A5568?text=Product+Image" alt="Product Image">
+                <div class="p-3 sm:p-4">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2 truncate">Phone Stand</h3>
+                    <p class="hidden sm:block text-gray-600 text-sm mb-4">Adjustable and sturdy holder for your smartphone.</p>
+                    <div class="text-lg sm:text-xl font-bold text-gray-900 mb-4">₹299</div>
+                    <div class="hidden sm:block mb-4">
+                        <h4 class="font-semibold text-md text-gray-800 mb-1">AI Overview</h4>
+                        <p class="text-gray-600 text-sm">Very sturdy and versatile. A few users found it bulky for travel.</p>
+                    </div>
+                    <a href="#" class="w-full block text-center bg-yellow-500 text-white font-bold py-2 px-3 sm:px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-300 text-sm sm:text-base">
+                        View on Amazon
+                    </a>
+                </div>
+            </div>
+             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/E2E8F0/4A5568?text=Product+Image" alt="Product Image">
+                <div class="p-3 sm:p-4">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2 truncate">Psychology of Money</h3>
+                    <p class="hidden sm:block text-gray-600 text-sm mb-4">Timeless lessons on wealth, greed, and happiness.</p>
+                    <div class="text-lg sm:text-xl font-bold text-gray-900 mb-4">₹349</div>
+                    <div class="hidden sm:block mb-4">
+                        <h4 class="font-semibold text-md text-gray-800 mb-1">AI Overview</h4>
+                        <p class="text-gray-600 text-sm">Life-changing perspectives on finance. A must-read for everyone.</p>
+                    </div>
+                    <a href="#" class="w-full block text-center bg-yellow-500 text-white font-bold py-2 px-3 sm:px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-300 text-sm sm:text-base">
+                        View on Amazon
+                    </a>
+                </div>
+            </div>
+             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img class="w-full h-48 sm:h-56 object-cover object-center" src="https://placehold.co/600x400/E2E8F0/4A5568?text=Product+Image" alt="Product Image">
+                <div class="p-3 sm:p-4">
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2 truncate">Herbal Face Wash</h3>
+                    <p class="hidden sm:block text-gray-600 text-sm mb-4">Gentle and effective for all skin types.</p>
+                    <div class="text-lg sm:text-xl font-bold text-gray-900 mb-4">₹199</div>
+                    <div class="hidden sm:block mb-4">
+                        <h4 class="font-semibold text-md text-gray-800 mb-1">AI Overview</h4>
+                        <p class="text-gray-600 text-sm">Refreshing and good for sensitive skin. Scent might be strong for some.</p>
+                    </div>
+                    <a href="#" class="w-full block text-center bg-yellow-500 text-white font-bold py-2 px-3 sm:px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-300 text-sm sm:text-base">
+                        View on Amazon
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <p class="text-center text-gray-500 text-sm">
+                &copy; 2025 CheapFinds India. All Rights Reserved. As an Amazon Associate, we earn from qualifying purchases.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const btn = document.getElementById('mobile-menu-button');
+        const menu = document.getElementById('mobile-menu');
+        const openIcon = document.getElementById('menu-open-icon');
+        const closeIcon = document.getElementById('menu-close-icon');
+
+        btn.addEventListener('click', () => {
+            const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', !isExpanded);
+            menu.classList.toggle('hidden');
+            openIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
